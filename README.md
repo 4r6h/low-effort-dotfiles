@@ -17,7 +17,7 @@ Hi, I see you are here, welcome to my dotfiles, they are not so good but provide
 - ArchLinux as a distro, *but bloated*  
 - ZSH as shell, *more bloated than yo momma*   
 - XFCE as Desktop Environment   
-- Kitty as the terminal   
+- Alacritty as the terminal   
 - Picom as the compositor, *with a shit config*   
 - Rofi as launcher  
 - Inter as font
