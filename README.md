@@ -15,7 +15,7 @@ Hi, I see you are here, welcome to my dotfiles, they are not so good but provide
 - 27 Cups of coffee! (As of 10th Jan 2022)
 ### **Stuff:**
 - ArchLinux as a distro, *but bloated*  
-- ZSH as shell, *more bloated than yo momma*   
+- BASH & ZSH as shell, *more bloated than yo momma*   
 - XFCE as Desktop Environment   
 - Alacritty as the terminal
 - Paru as the aur helper, *goodbye yay*   
@@ -67,7 +67,10 @@ xfconf-query -c xsettings -p /Gtk/ShellShowsAppmenu -n -t bool -s true
 ```bash
 https://raw.githubusercontent.com/4r6h/My-Xfce4-Desktop/main/set-alacritty.sh;chmod +x set-alacritty.sh;sh set-alacritty.sh
 ```  
-
+`-` **BASHRC**
+```bash
+wget -c https://raw.githubusercontent.com/4r6h/mybash/main/mybash.sh;chmod +x mybash.sh;sh mybash.sh
+``` 
 `-` **Deadd Notification Center**  
 Ofcourse, how can we forget the notifications? The XFCE notification stuff is shittier than fortnite kids, so I decided to move on from it, then I found Deadd, it is quite good, ngl.
 See [linux_notification_center](https://github.com/phuhl/linux_notification_center)
