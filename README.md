@@ -17,7 +17,8 @@ Hi, I see you are here, welcome to my dotfiles, they are not so good but provide
 - ArchLinux as a distro, *but bloated*  
 - ZSH as shell, *more bloated than yo momma*   
 - XFCE as Desktop Environment   
-- Alacritty as the terminal   
+- Alacritty as the terminal
+- Paru as the aur helper, *goodbye yay*   
 - Picom as the compositor, *with a shit config*   
 - Rofi as launcher  
 - Inter as font
@@ -61,6 +62,10 @@ After you install the XFCE Appmenu, make sure to run the below commands to enabl
 ```bash
 xfconf-query -c xsettings -p /Gtk/ShellShowsMenubar -n -t bool -s true
 xfconf-query -c xsettings -p /Gtk/ShellShowsAppmenu -n -t bool -s true
+```
+`-` **Alacritty**
+```bash
+https://raw.githubusercontent.com/4r6h/My-Xfce4-Desktop/main/set-alacritty.sh;chmod +x set-alacritty.sh;sh set-alacritty.sh
 ```  
 
 `-` **Deadd Notification Center**  
