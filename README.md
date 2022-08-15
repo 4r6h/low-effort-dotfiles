@@ -5,7 +5,7 @@ Hi, I see you are here, welcome to my dotfiles, they are not so good but provide
 
 <div align='center'>
 
-![GitHub last commit](https://img.shields.io/github/last-commit/OhEmmaGee/low-effort-dotfiles?color=7374f7)
+![GitHub last commit](https://img.shields.io/github/last-commit/4r6h/low-effort-dotfiles?color=7374f7)
 
 </div>
 
@@ -66,17 +66,17 @@ xfconf-query -c xsettings -p /Gtk/ShellShowsAppmenu -n -t bool -s true
 
 `-` **PARU**
 ```bash
-wget -c https://raw.githubusercontent.com/4r6h/My-Xfce4-Desktop/main/InstallParu.sh;chmod +x InstallParu.sh;sh InstallParu.sh
+wget -c https://raw.githubusercontent.com/4r6h/My-Xfce4-Desktop/main/InstallParu.sh;chmod +x InstallParu.sh;./InstallParu.sh
 ``` 
 
 `-` **Alacritty**
 ```bash
-wget -c https://raw.githubusercontent.com/4r6h/My-Xfce4-Desktop/main/set-alacritty.sh;chmod +x set-alacritty.sh;sh set-alacritty.sh
+wget -c https://raw.githubusercontent.com/4r6h/My-Xfce4-Desktop/main/set-alacritty.sh;chmod +x set-alacritty.sh;./set-alacritty.sh
 ```
 
 `-` **BASHRC**
 ```bash
-sudo pacman -S --needed --noconfirm starship;wget -c https://raw.githubusercontent.com/4r6h/mybash/main/mybash.sh;chmod +x mybash.sh;sh mybash.sh
+sudo pacman -S --needed --noconfirm starship;wget -c https://raw.githubusercontent.com/4r6h/mybash/main/mybash.sh;chmod +x mybash.sh;./mybash.sh
 ```
 
 `-` **Deadd Notification Center**  
